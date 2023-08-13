@@ -1,7 +1,6 @@
-.container{
+.container {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
 }
 #header{
     width: 100vw;
@@ -23,7 +22,7 @@
 #navbar a{
     font-family: 'Poppins', sans-serif;
     padding: 8px;
-    font-size: 15px;
+    font-size: 1vw;
     text-decoration: none;
     color: black;
 }
@@ -31,16 +30,18 @@
     flex: 1;
     display: flex;
 }
-#left-div{
+#left-div {
     background-color: #4C0083;
     width: 20vw;
     min-height: 100vh;
+    display: block;
 }
 #left-div a{
     display: block;
     color: white;
     text-decoration: none;
     margin: 20px;
+    font-size: 1vw;
 }
 #left-nav{
     position: absolute;
@@ -48,14 +49,14 @@
     top: 5vw;
     font-family: 'Poppins', sans-serif;
 }
-#main-div{
-    display: inline;
+#main-div {
+    display: inline-block;
     width: 80vw;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    text-align: center;
+}
+p{
+    text-align: left;
 }
 #footer{
     display: flex;
@@ -74,7 +75,7 @@
 .gif {
     position: relative;
     top: 1vh;
-    display: flex;
+    display: inline-block;
     justify-content: center;
 }
 
@@ -86,23 +87,22 @@
 }
 
 
-#gif1{
+#gif1, #gif2, #gif3 {
     margin-right: 5vw;
-    display: inline;
+    display: inline-block;
 }
-#gif2{
-    margin-right: 5vw;
-    display: inline;
 
-}
-#gif3{
-    margin-right: 5vw;
-    display: inline;
-}
-#article{
+
+#article {
     font-family: 'Preahvihear', sans-serif;
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 2vw;
-    flex: 1;
+}
+
+#article {
+    font-family: 'Preahvihear', sans-serif;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 2vw;
 }
